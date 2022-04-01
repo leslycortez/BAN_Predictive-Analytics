@@ -1,5 +1,6 @@
 # BAN_Predictive-Analytics
 Contains all hands-on example and workshop on **Predictive Analytics** for **Business Analytics** Graduate Certificate Program
+
 Programming Language: **SAS Enterprise Miner**
 
 Module 3 Association Rule Mining 
