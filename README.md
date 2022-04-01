@@ -3,7 +3,7 @@ Contains all hands-on example and workshop on **Predictive Analytics** for **Bus
 
 Programming Language: **SAS Enterprise Miner**
 
-=======================================================================================================================
+============================================================================
 
 Module 3 Association Rule Mining 
 [ReadMe_Association Rule Mining (ARM).docx](https://github.com/leslycortez/BAN_Predictive-Analytics/files/8398316/ReadMe_Association.Rule.Mining.ARM.docx)
