@@ -1,5 +1,5 @@
 # BAN_Predictive-Analytics
-Contains all hands-on example and workshop on Predictive Analytics for Business Analytics program 
+Contains all hands-on example and workshop on Predictive Analytics for Business Analytics program (Post Graduate Certification)
 
 Module 3 Association Rule Mining 
 [ReadMe_Association Rule Mining (ARM).docx](https://github.com/leslycortez/BAN_Predictive-Analytics/files/8398316/ReadMe_Association.Rule.Mining.ARM.docx)
@@ -16,3 +16,5 @@ Module 7 Linear Regression
 
 Module 8 Polynomial and Multivariate Regression
 [ReadMe_Multivariate Regression.docx](https://github.com/leslycortez/BAN_Predictive-Analytics/files/8398330/ReadMe_Multivariate.Regression.docx)
+
+Module 11: k-NN and Naive Bayes Classification
