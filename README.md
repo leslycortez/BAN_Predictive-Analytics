@@ -18,3 +18,4 @@ Module 8 Polynomial and Multivariate Regression
 [ReadMe_Multivariate Regression.docx](https://github.com/leslycortez/BAN_Predictive-Analytics/files/8398330/ReadMe_Multivariate.Regression.docx)
 
 Module 11: k-NN and Naive Bayes Classification
+[ReadMe_KNN Regression.docx](https://github.com/leslycortez/BAN_Predictive-Analytics/files/8399293/ReadMe_KNN.Regression.docx)
