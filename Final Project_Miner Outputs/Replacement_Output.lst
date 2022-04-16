@@ -1,0 +1,73 @@
+*------------------------------------------------------------*
+User:                u59400043
+Date:                15 April 2022
+Time:                05:59:43
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+ Role        Level         Count
+ 
+INPUT      BINARY            3
+INPUT      INTERVAL          1
+INPUT      NOMINAL           5
+TARGET     BINARY            1
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Limits and Replacement Values for Interval Variables
+ 
+                                             Lower                     Upper
+                Replace         Lower     Replacement     Upper     Replacement
+Variable       Variable         limit        Value        Limit        Value
+ 
+deg_malig    REP_deg_malig    -0.23207      -0.23207     4.23207      4.23207
+ 
+ 
+ 
+ 
+Replacement Values for Class Variables
+ 
+                                     Character
+               Formatted            Unformatted    Numeric    Replacement
+ Variable        Value      Type       Value        Value        Value          Label
+ 
+breast_quad     ?            C        ?               .        _blank_       breast-quad
+inv_nodes       05-Mar       C        05-Mar          .        _UNKNOWN_     inv-nodes
+inv_nodes       11-Sep       C        11-Sep          .        _UNKNOWN_     inv-nodes
+inv_nodes       15-17        C        15-17           .        _UNKNOWN_     inv-nodes
+inv_nodes       08-Jun       C        08-Jun          .        _UNKNOWN_     inv-nodes
+inv_nodes       24-26        C        24-26           .        _UNKNOWN_     inv-nodes
+node_caps       ?            C        ?               .        _blank_       node-caps
+tumor_size      14-Oct       C        14-Oct          .        _UNKNOWN_     tumor-size
+tumor_size      09-May       C        09-May          .        _UNKNOWN_     tumor-size
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Replacement Counts
+ 
+Obs     Variable         Label       Role     Train    Validation    Test
+ 
+ 1     breast_quad    breast-quad    INPUT       1          0          0
+ 2     deg_malig      deg-malig      INPUT       0          0          0
+ 3     inv_nodes      inv-nodes      INPUT      28         17         25
+ 4     node_caps      node-caps      INPUT       2          2          4
+ 5     tumor_size     tumor-size     INPUT      10          9         13

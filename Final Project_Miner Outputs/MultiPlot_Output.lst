@@ -1,0 +1,86 @@
+*------------------------------------------------------------*
+User:                u59400043
+Date:                15 April 2022
+Time:                07:20:24
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+ Role        Level         Count
+ 
+INPUT      INTERVAL          1
+INPUT      NOMINAL           8
+TARGET     BINARY            1
+ 
+ 
+ 
+Class Variables
+ 
+Obs    NAME           LEVEL                     CODE     FREQUENCY    TYPE    CRAW                    NRAW    FREQPERCENT    NMISSPERCENT
+ 
+  1    Class          RECURRENCE-EVENTS            1            85     C      recurrence-events         .       29.7203         29.7203
+  2    Class          NO-RECURRENCE-EVENTS         0           201     C      no-recurrence-events      .       70.2797         70.2797
+  3    age            20-29                        5             1     C      20-29                     .        0.3497          0.3497
+  4    age            30-39                        0            36     C      30-39                     .       12.5874         12.5874
+  5    age            40-49                        1            90     C      40-49                     .       31.4685         31.4685
+  6    age            50-59                        3            96     C      50-59                     .       33.5664         33.5664
+  7    age            60-69                        2            57     C      60-69                     .       19.9301         19.9301
+  8    age            70-79                        4             6     C      70-79                     .        2.0979          2.0979
+  9    breast         LEFT                         0           152     C      left                      .       53.1469         53.1469
+ 10    breast         RIGHT                        1           134     C      right                     .       46.8531         46.8531
+ 11    breast_quad    ?                            5             1     C      ?                         .        0.3497          0.3497
+ 12    breast_quad    CENTRAL                      4            21     C      central                   .        7.3427          7.3427
+ 13    breast_quad    LEFT_LOW                     0           110     C      left_low                  .       38.4615         38.4615
+ 14    breast_quad    LEFT_UP                      2            97     C      left_up                   .       33.9161         33.9161
+ 15    breast_quad    RIGHT_LOW                    3            24     C      right_low                 .        8.3916          8.3916
+ 16    breast_quad    RIGHT_UP                     1            33     C      right_up                  .       11.5385         11.5385
+ 17    inv_nodes      0-2                          0           213     C      0-2                       .       74.4755         74.4755
+ 18    inv_nodes      05-MAR                       3            36     C      05-Mar                    .       12.5874         12.5874
+ 19    inv_nodes      08-JUN                       1            17     C      08-Jun                    .        5.9441          5.9441
+ 20    inv_nodes      11-SEP                       2            10     C      11-Sep                    .        3.4965          3.4965
+ 21    inv_nodes      14-DEC                       5             3     C      14-Dec                    .        1.0490          1.0490
+ 22    inv_nodes      15-17                        4             6     C      15-17                     .        2.0979          2.0979
+ 23    inv_nodes      24-26                        6             1     C      24-26                     .        0.3497          0.3497
+ 24    irradiat       NO                           0           218     C      no                        .       76.2238         76.2238
+ 25    irradiat       YES                          1            68     C      yes                       .       23.7762         23.7762
+ 26    menopause      GE40                         1           129     C      ge40                      .       45.1049         45.1049
+ 27    menopause      LT40                         2             7     C      lt40                      .        2.4476          2.4476
+ 28    menopause      PREMENO                      0           150     C      premeno                   .       52.4476         52.4476
+ 29    node_caps      ?                            2             8     C      ?                         .        2.7972          2.7972
+ 30    node_caps      NO                           0           222     C      no                        .       77.6224         77.6224
+ 31    node_caps      YES                          1            56     C      yes                       .       19.5804         19.5804
+ 32    tumor_size     0-4                          3             8     C      0-4                       .        2.7972          2.7972
+ 33    tumor_size     09-MAY                       9             4     C      09-May                    .        1.3986          1.3986
+ 34    tumor_size     14-OCT                       6            28     C      14-Oct                    .        9.7902          9.7902
+ 35    tumor_size     15-19                        2            30     C      15-19                     .       10.4895         10.4895
+ 36    tumor_size     20-24                        1            50     C      20-24                     .       17.4825         17.4825
+ 37    tumor_size     25-29                        4            54     C      25-29                     .       18.8811         18.8811
+ 38    tumor_size     30-34                        0            60     C      30-34                     .       20.9790         20.9790
+ 39    tumor_size     35-39                        8            19     C      35-39                     .        6.6434          6.6434
+ 40    tumor_size     40-44                        7            22     C      40-44                     .        7.6923          7.6923
+ 41    tumor_size     45-49                       10             3     C      45-49                     .        1.0490          1.0490
+ 42    tumor_size     50-54                        5             8     C      50-54                     .        2.7972          2.7972
+ 
+ 
+ 
+Interval Variables
+ 
+Obs      NAME           NMISS            N    MIN    MAX      MEAN       STD       SKEWNESS    KURTOSIS
+ 
+ 1     deg_malig            0          286     1      3     2.04895    0.73822    -0.077661    -1.15562
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*

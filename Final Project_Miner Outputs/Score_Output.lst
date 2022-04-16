@@ -1,0 +1,157 @@
+*------------------------------------------------------------*
+User:                u59400043
+Date:                15 April 2022
+Time:                07:33:41
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+           Measurement    Frequency
+ Role         Level         Count
+ 
+SEGMENT      NOMINAL          2
+TARGET       BINARY           1
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Score Input Variables
+ 
+                                                                            Used in
+Variable                                                        Variable     Score
+Name             Role      Creator    Comment       Label        Hidden      Code
+ 
+Class          TARGET                                              N           N
+breast_quad    REJECTED                          breast-quad       N           Y
+node_caps      REJECTED                          node-caps         N           Y
+ 
+ 
+ 
+ 
+Score Output Variables
+ 
+Variable Name                  Function          Creator    Label
+ 
+EM_CLASSIFICATION              CLASSIFICATION    Score      Prediction for Class
+EM_EVENTPROBABILITY            PREDICT           Score      Probability for level RECURRENCE-EVENTS of Class
+EM_PROBABILITY                 PREDICT           Score      Probability of Classification
+EM_SEGMENT                     TRANSFORM         Score      Node
+I_Class                        CLASSIFICATION    EndGrp     Into: Class
+M_REP_breast_quad              TRANSFORM         Impt       Imputation Indicator for REP_breast_quad
+M_REP_node_caps                TRANSFORM         Impt       Imputation Indicator for REP_node_caps
+P_Classno_recurrence_events    PREDICT           EndGrp     Predicted: Class=no-recurrence-events
+P_Classrecurrence_events       PREDICT           EndGrp     Predicted: Class=recurrence-events
+Q_Classno_recurrence_events    TRANSFORM         Tree       Unadjusted P: Class=no-recurrence-events
+Q_Classrecurrence_events       TRANSFORM         Tree       Unadjusted P: Class=recurrence-events
+REP_breast_quad                TRANSFORM                    Replacement: breast-quad
+REP_node_caps                  TRANSFORM                    Replacement: node-caps
+U_Class                        CLASSIFICATION    EndGrp     Unnormalized Into: Class
+_NODE_                         TRANSFORM         Tree       Node
+_WARN_                         ASSESS            EndGrp     Warnings
+_XVAL_                         TRANSFORM         Tree
+b_Class                        TRANSFORM         EndGrp
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Class Variable Summary Statistics
+ 
+Data Role=TEST Output Type=CLASSIFICATION
+ 
+            Numeric                            Frequency
+Variable     Value       Formatted Value         Count      Percent
+ 
+I_Class        .                                    4        4.5455
+I_Class        .       NO-RECURRENCE-EVENTS        84       95.4545
+ 
+ 
+Data Role=TEST Output Type=SEGMENT
+ 
+            Numeric    Formatted    Frequency
+Variable     Value       Value        Count      Percent
+ 
+ _NODE_        .           .             4        4.5455
+ _NODE_        1           1            84       95.4545
+ 
+ 
+Data Role=TRAIN Output Type=CLASSIFICATION
+ 
+            Numeric                            Frequency
+Variable     Value       Formatted Value         Count      Percent
+ 
+I_Class        .                                    3        2.6549
+I_Class        .       NO-RECURRENCE-EVENTS       110       97.3451
+ 
+ 
+Data Role=TRAIN Output Type=SEGMENT
+ 
+            Numeric    Formatted    Frequency
+Variable     Value       Value        Count      Percent
+ 
+ _NODE_        .           .             3        2.6549
+ _NODE_        1           1           110       97.3451
+ 
+ 
+Data Role=VALIDATE Output Type=CLASSIFICATION
+ 
+            Numeric                            Frequency
+Variable     Value       Formatted Value         Count      Percent
+ 
+I_Class        .                                    2        2.3529
+I_Class        .       NO-RECURRENCE-EVENTS        83       97.6471
+ 
+ 
+Data Role=VALIDATE Output Type=SEGMENT
+ 
+            Numeric    Formatted    Frequency
+Variable     Value       Value        Count      Percent
+ 
+ _NODE_        .           .             2        2.3529
+ _NODE_        1           1            83       97.6471
+ 
+ 
+ 
+ 
+Interval Variable Summary Statistics
+ 
+Variable Name=P_Classno_recurrence_events
+ 
+Statistics    Label                   TRAIN    VALIDATE      TEST
+ 
+  MEAN        Mean                    0.667      0.6667     0.6667
+  STD         Standard Deviation       .          .          .
+  N           Non Missing           110.000     83.0000    84.0000
+  MIN         Minimum                 0.667      0.6667     0.6667
+  P25         25th Percentile         0.667      0.6667     0.6667
+  MEDIAN      Median                  0.667      0.6667     0.6667
+  P75         75th Percentile         0.667      0.6667     0.6667
+  MAX         Maximum                 0.667      0.6667     0.6667
+ 
+ 
+Variable Name=P_Classrecurrence_events
+ 
+Statistics    Label                   TRAIN    VALIDATE      TEST
+ 
+  MEAN        Mean                    0.333      0.3333     0.3333
+  STD         Standard Deviation       .          .          .
+  N           Non Missing           110.000     83.0000    84.0000
+  MIN         Minimum                 0.333      0.3333     0.3333
+  P25         25th Percentile         0.333      0.3333     0.3333
+  MEDIAN      Median                  0.333      0.3333     0.3333
+  P75         75th Percentile         0.333      0.3333     0.3333
+  MAX         Maximum                 0.333      0.3333     0.3333

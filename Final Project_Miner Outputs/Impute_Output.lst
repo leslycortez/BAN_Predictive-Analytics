@@ -1,0 +1,57 @@
+*------------------------------------------------------------*
+User:                u59400043
+Date:                15 April 2022
+Time:                06:04:17
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+            Measurement    Frequency
+Role           Level         Count
+ 
+INPUT        BINARY            3
+INPUT        INTERVAL          1
+INPUT        NOMINAL           5
+REJECTED     BINARY            1
+REJECTED     INTERVAL          1
+REJECTED     NOMINAL           3
+TARGET       BINARY            1
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+Imputation Summary
+Number Of Observations
+ 
+                                                                                                                                          Number of
+                    Impute                                Indicator        Impute             Measurement                                   Missing
+ Variable Name      Method      Imputed Variable          Variable          Value    Role        Level                Label               for TRAIN
+ 
+REP_breast_quad    TREESURR    IMP_REP_breast_quad    M_REP_breast_quad       .      INPUT      NOMINAL      Replacement: breast-quad             1
+REP_node_caps      TREESURR    IMP_REP_node_caps      M_REP_node_caps         .      INPUT      BINARY       Replacement: node-caps               2
+ 
+ 
+ 
+ 
+Variable Distribution Training Data
+ 
+        Number of
+          Missing    Number of    Percent of
+Obs     for TRAIN    Variables     Variables
+ 
+ 1              2        1            50
+ 2              1        1            50

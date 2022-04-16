@@ -1,0 +1,30 @@
+*------------------------------------------------------------*
+User:                u59400043
+Date:                15 April 2022
+Time:                07:29:42
+*------------------------------------------------------------*
+* Post Grouping Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+            Measurement    Frequency
+Role           Level         Count
+ 
+ASSESS        NOMINAL          1
+INPUT         BINARY           2
+INPUT         NOMINAL          8
+REJECTED      NOMINAL          4
+TARGET        BINARY           1
+ 
+ 
+ 
+Group Summary
+ 
+Group                                                      Frequency
+Index                        Group                           Count
+ 
+  1      ^(M_REP_breast_quad =0 and M_REP_node_caps =0)           3
